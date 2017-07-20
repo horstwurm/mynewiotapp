@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sensor:</strong>
+  <%= @iot.sensor %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @iot.value %>
+</p>
+
+<%= link_to 'Edit', edit_iot_path(@iot) %> |
+<%= link_to 'Back', iots_path %>
